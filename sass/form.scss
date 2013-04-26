@@ -1,0 +1,49 @@
+@import "common";
+@import "compass/css3";
+
+// Form elements
+
+.button-wrapper{
+  padding:10px;
+}
+
+.button,input[type=button],button{
+
+  display: block;
+  width:100%;
+  margin: $common-margin;
+  padding:$common-padding;
+
+  border:1px #ccc solid;
+  text-align: center;
+  cursor: pointer;
+
+  @include box-sizing(border-box);
+  @include background-image(linear-gradient(white, #f1f1f1));
+  @include border-radius(4px);
+  @include box-shadow(0px 1px 3px rgba(0, 0, 0, .2));
+
+  &:hover{
+    @include background-image(linear-gradient(#f6f6f6, #e0e0e0));
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
