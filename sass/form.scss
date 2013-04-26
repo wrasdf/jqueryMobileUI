@@ -1,38 +1,60 @@
 @import "common";
 @import "compass/css3";
 
-// Form elements
+h2{margin:20px 0;}
 
+// Form elements
 .button-wrapper{
   padding:10px;
 }
-
 .button,input[type=button],button{
-
-  display: block;
-  width:100%;
-  margin: $common-margin;
-  padding:$common-padding;
-
-  border:1px #ccc solid;
-  text-align: center;
-  cursor: pointer;
-  letter-spacing: 0;
-
-  @include box-sizing(border-box);
-  @include background-image(linear-gradient(white, #f1f1f1));
-  @include border-radius(4px);
-  @include box-shadow(0px 1px 3px rgba(0, 0, 0, .2));
-
-  &:hover{
-    @include background-image(linear-gradient(#f6f6f6, #e0e0e0));
-  }
-
+  @include customized-list;
 }
-
 input[type=button],button,button.button{
   padding:7px 20px;
 }
+@-moz-document url-prefix() {
+  input[type=button],button,button.button{padding: 5.5px 20px;}
+}
+.view-list{
+  a{
+    @include customized-list;
+    @include border-radius(0px);
+    border-top:0px;
+    margin:0px;
+    text-align: left;
+  }
+  a:first-child{
+    @include border-top-radius(4px);
+    border-top:1px #ccc solid;
+  }
+  a:last-child{
+    @include border-bottom-radius(4px);
+  }
+}
+.ui-checkbox{
+  @include customized-list;
+  padding-left: 8px;
+  text-align: left;
+}
+.checkbox-list{
+  .ui-checkbox{
+    @include border-radius(0px);
+    border-top:0px;
+    margin:0;
+  }
+  .ui-checkbox:first-child{
+    @include border-top-radius(4px);
+    border-top:1px #ccc solid;
+  }
+  .ui-checkbox:last-child{
+    @include border-bottom-radius(4px);
+  }
+}
+
+
+
+
 
 
 

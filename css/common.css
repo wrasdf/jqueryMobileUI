@@ -63,10 +63,7 @@ html, body {
 a, input[type=button], button {
   color: #333333;
   font-size: 16px;
-}
-
-input[type=button], button {
-  padding: 6px 20px;
+  vertical-align: top;
 }
 
 a {
@@ -75,6 +72,8 @@ a {
 
 .clear {
   clear: both;
+  font-size: 0;
+  line-height: 0;
 }
 
 .inline {

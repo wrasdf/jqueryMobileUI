@@ -7,9 +7,30 @@ $font-size:16px;
 $common-margin:.5em 0;
 $common-padding: 8px 20px;
 
-html,body{color:$font-color;font-size: $font-size; font-family: $font-family}
-a,input[type=button],button{color:$font-color; font-size: $font-size;}
-input[type=button],button{padding: 6px 20px;}
+html,body{color:$font-color; font-size: $font-size; font-family: $font-family}
+a,input[type=button],button{color:$font-color; font-size: $font-size; vertical-align: top;}
 a{text-decoration: none;}
-.clear{clear:both;}
+.clear{clear:both;font-size: 0;line-height: 0;}
 .inline{width:auto !important;display: inline-block !important;}
+
+@mixin customized-list {
+
+  display: block;
+  width:100%;
+  margin: $common-margin;
+  padding:$common-padding;
+
+  border:1px #ccc solid;
+  text-align: center;
+  cursor: pointer;
+
+  @include box-sizing(border-box);
+  @include background-image(linear-gradient(white, #f1f1f1));
+  @include border-radius(4px);
+  @include box-shadow(0px 1px 3px rgba(0, 0, 0, .2));
+
+  &:hover{
+    @include background-image(linear-gradient(#f6f6f6, #e0e0e0));
+  }
+}
+
