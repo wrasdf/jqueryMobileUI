@@ -17,6 +17,7 @@
   border:1px #ccc solid;
   text-align: center;
   cursor: pointer;
+  letter-spacing: 0;
 
   @include box-sizing(border-box);
   @include background-image(linear-gradient(white, #f1f1f1));
@@ -27,6 +28,10 @@
     @include background-image(linear-gradient(#f6f6f6, #e0e0e0));
   }
 
+}
+
+input[type=button],button,button.button{
+  padding:7px 20px;
 }
 
 

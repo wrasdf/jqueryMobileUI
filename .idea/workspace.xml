@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-Mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/common.scss" afterPath="$PROJECT_DIR$/sass/common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1b776ea2ccd2e53cba938e03d0c9f11e8e135ffa/common.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1b776ea2ccd2e53cba938e03d0c9f11e8e135ffa/common.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/form.css" afterPath="$PROJECT_DIR$/css/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/form.scss" afterPath="$PROJECT_DIR$/sass/form.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1b776ea2ccd2e53cba938e03d0c9f11e8e135ffa/form.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1b776ea2ccd2e53cba938e03d0c9f11e8e135ffa/form.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-Mobile.html" afterPath="$PROJECT_DIR$/jquery-Mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jqueryMobileUI.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" time="1366959614077" ignored="false" />
     <file path="/config.rb" changelist="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" time="1366960134054" ignored="false" />
     <file path="/screen.scss" changelist="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" time="1366960220642" ignored="false" />
-    <file path="/jquery-Mobile.html" changelist="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" time="1366970343079" ignored="false" />
-    <file path="/form.scss" changelist="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" time="1366965684429" ignored="false" />
-    <file path="/common.scss" changelist="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" time="1366970723881" ignored="false" />
+    <file path="/jquery-Mobile.html" changelist="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" time="1366971467813" ignored="false" />
+    <file path="/form.scss" changelist="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" time="1366972075096" ignored="false" />
+    <file path="/common.scss" changelist="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" time="1366972154564" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,25 +90,25 @@
       <file leaf-file-name="jquery-Mobile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery-Mobile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="500" selection-end="500" vertical-scroll-proportion="-13.730769">
+            <state line="23" column="44" selection-start="611" selection-end="611" vertical-scroll-proportion="-15.038462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="form.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/form.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="33" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+            <state line="19" column="20" selection-start="305" selection-end="305" vertical-scroll-proportion="0.26264045">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="common.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="99" selection-end="99" vertical-scroll-proportion="0.119382024">
+            <state line="14" column="63" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,9 +135,9 @@
         <option value="$PROJECT_DIR$/test/sass/screen.scss" />
         <option value="$PROJECT_DIR$/css/form.css" />
         <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/sass/form.scss" />
         <option value="$PROJECT_DIR$/jquery-Mobile.html" />
         <option value="$PROJECT_DIR$/sass/common.scss" />
+        <option value="$PROJECT_DIR$/sass/form.scss" />
       </list>
     </option>
   </component>
@@ -350,20 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-Mobile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="500" selection-end="500" vertical-scroll-proportion="-13.730769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="392" selection-end="392" vertical-scroll-proportion="-0.67134833">
@@ -371,9 +362,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-Mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="44" selection-start="611" selection-end="611" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="99" selection-end="99" vertical-scroll-proportion="0.119382024">
+        <state line="14" column="63" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="305" selection-end="305" vertical-scroll-proportion="0.26264045">
           <folding />
         </state>
       </provider>

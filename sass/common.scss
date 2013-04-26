@@ -1,13 +1,15 @@
 @import "compass/reset";
 
 // Global settings
+$font-family: Arial;
 $font-color:#333;
 $font-size:16px;
 $common-margin:.5em 0;
-$common-padding: .5em;
+$common-padding: 8px 20px;
 
-html,body{color:$font-color;  font-size: $font-size;}
+html,body{color:$font-color;font-size: $font-size; font-family: $font-family}
 a,input[type=button],button{color:$font-color; font-size: $font-size;}
+input[type=button],button{padding: 6px 20px;}
 a{text-decoration: none;}
 .clear{clear:both;}
 .inline{width:auto !important;display: inline-block !important;}
