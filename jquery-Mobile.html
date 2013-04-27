@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/form.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
@@ -15,24 +16,46 @@
         <div class="button">Div</div>
         <a href="###" class="button">Anchor</a>
         <input type="button" value="Input"/>
-        <button>button</button>
 
         <input type="button" class="inline" value="Input"/>
-        <button class="inline">button</button>
+        <input type="submit" class="inline" value="submit"/>
         <div class="button inline">Div</div>
         <a href="###" class="button inline">Anchor</a>
 
     </div>
 
+
+    <div class="form-inputs">
+
+        <h2> Inputs </h2>
+
+        <input type="text" placeholder="Input Text">
+        <input type="email" placeholder="r@thoughtworks.com" required>
+
+        <h2> textarea </h2>
+
+        <textarea rows="3"></textarea>
+
+    </div>
+
+
     <div class="form-view-list">
 
-        <h2> List views </h2>
+        <h2>Anchor List views </h2>
 
         <div class="view-list">
-            <a href="#">asdf</a>
-            <a href="#">asdf</a>
-            <a href="#">asdf</a>
+            <a href="#">Anchor list <span class="icon icon-chevron-right pull-right"></span><span class="badge pull-right">24</span></a>
+            <a href="#">Anchor list <span class="icon icon-chevron-right pull-right"></span><span class="badge pull-right">24</span></a>
+            <a href="#">Anchor list <span class="icon icon-chevron-right pull-right"></span><span class="badge pull-right">24</span></a>
         </div>
+
+        <h2>li List views </h2>
+
+        <ul class="view-list">
+            <li>li list</li>
+            <li>li list</li>
+            <li>li list</li>
+        </ul>
 
     </div>
 
@@ -41,22 +64,26 @@
         <h2> checkbox </h2>
 
         <div class="ui-checkbox">
-            <input type="checkbox">
-            <label>ste</label>
+            <label>
+                <input type="checkbox">ste
+            </label>
         </div>
 
         <div class="checkbox-list">
             <div class="ui-checkbox">
-                <input type="checkbox">
-                <label>ste</label>
+                <label>
+                    <input type="checkbox">ste
+                </label>
             </div>
             <div class="ui-checkbox">
-                <input type="checkbox">
-                <label>ste</label>
+                <label>
+                    <input type="checkbox">ste
+                </label>
             </div>
             <div class="ui-checkbox">
-                <input type="checkbox">
-                <label>ste</label>
+                <label>
+                    <input type="checkbox">ste
+                </label>
             </div>
         </div>
 
@@ -68,27 +95,61 @@
         <h2> radio box list </h2>
 
         <div class="ui-radio">
-            <input type="radio">
-            <label>ste</label>
+            <label>
+                <input type="radio" name="test">ste
+            </label>
         </div>
 
         <div class="radio-list">
             <div class="ui-radio">
-                <input type="radio">
-                <label>ste</label>
+                <label>
+                    <input type="radio" name="test1">ste
+                </label>
             </div>
             <div class="ui-radio">
-                <input type="radio">
-                <label>ste</label>
+                <label>
+                    <input type="radio" name="test1">ste
+                </label>
             </div>
             <div class="ui-radio">
-                <input type="radio">
-                <label>ste</label>
+                <label>
+                    <input type="radio" name="test1">ste
+                </label>
             </div>
         </div>
 
 
     </div>
+
+    <div class="form-dropdown open">
+
+        <h2>Drop down list</h2>
+
+        <div class="dropdown">
+            <!-- Link or button to toggle dropdown -->
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                <li><a tabindex="-1" href="#"><span class="icon icon-envelope"></span>Action</a></li>
+                <li><a tabindex="-1" href="#">Another action</a></li>
+                <li class="disabled"><a tabindex="-1" href="#">disabled item</a></li>
+                <li class="divider"></li>
+                <li><a tabindex="-1" href="#">Separated link</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+    <div class="form-icons">
+
+        <h2>icons --> The same as Bootstrap</h2>
+
+
+
+    </div>
+
+
+
 
 
 </div>
