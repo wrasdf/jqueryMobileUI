@@ -41,7 +41,6 @@ a{
   }
 }
 
-
 button,
 input,
 select,
@@ -96,7 +95,15 @@ textarea {
   vertical-align: top;
 }
 
-// commons for usage
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {white-space: pre-wrap;}
 
 // Global settings
 $font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -108,7 +115,6 @@ $radius: 4px;
 $border: #ccc;
 
 // color settings list
-
 $muted : #999;
 $warning : #C09853;
 $danger : #B94A48;
@@ -120,22 +126,12 @@ $success : #468847;
 .text-success {color:$success;}
 .pull-right{float: right;}
 
+
+// customized page style
 html,body,a{color:$font-color; font-size: $font-size; font-family: $font-family}
 .inline{width:auto !important;display: inline-block !important;}
-p{
-  margin: $common-margin;
-}
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, serif;
-  font-size: 1em;
-}
-
-pre {
-  white-space: pre-wrap;
-}
+p{margin: $common-margin;}
+h2{margin:20px 0;}
 
 textarea:focus,
 input[type="text"]:focus,
@@ -206,35 +202,6 @@ select:focus:invalid:focus {
   border-color: #e9322d;
   @include box-shadow(0 0 6px #f8b9b7);
 }
-
-
-.badge {
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1;
-  color: #fff;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  background-color: #999999;
-  border-radius: 10px;
-
-  &:empty {
-    display: none;
-  }
-
-}
-
-a.badge:hover,
-a.badge:focus {
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 
 @font-face {
   font-family: 'Glyphicons Halflings';

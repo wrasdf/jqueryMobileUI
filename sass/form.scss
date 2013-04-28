@@ -1,16 +1,13 @@
 @import "common";
 
-
 @mixin customized-list($noHover:'false') {
 
   display: block;
   margin: $common-margin;
   padding:$common-padding;
   vertical-align: middle;
-
   border:1px #ccc solid;
   text-align: center;
-
 
   @include box-sizing(border-box);
   @include background-image(linear-gradient(white, #f1f1f1));
@@ -61,8 +58,6 @@
 
 }
 
-h2{margin:20px 0;}
-
 // Form elements
 .button-wrapper{
   padding:20px;
@@ -105,20 +100,38 @@ button.button{
   @include customize-group-list('.ui-radio');
 }
 
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #999999;
+  border-radius: 10px;
+
+  &:empty {
+    display: none;
+  }
+
+}
+
+a.badge:hover,
+a.badge:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 // drop down list
 
 .form-dropdown{
   position: relative;
   height:200px;
-}
-
-.open .dropdown-menu {
-  display: block;
-}
-
-.dropdown-menu.pull-right {
-  right: 0;
-  left: auto;
 }
 
 @mixin dropdown-hover-mixin{
@@ -132,6 +145,15 @@ button.button{
   background-image: linear-gradient(to bottom, #428bca, #357ebd);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);
+}
+
+.open .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
 }
 
 .dropdown-menu {
@@ -221,6 +243,7 @@ button.button{
   }
 }
 
+// for icons demo page
 .the-icons{
   & > li{
     float:left;
@@ -238,7 +261,6 @@ button.button{
       margin-right: 3px;
       font-size: 24px;
     }
-
 
   }
 }
