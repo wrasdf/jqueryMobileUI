@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ce124c-4d21-48c2-b1b4-9a5c83b6fb2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iscroll-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/iscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-2.0.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1b776ea2ccd2e53cba938e03d0c9f11e8e135ffa/common.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1b776ea2ccd2e53cba938e03d0c9f11e8e135ffa/common.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1b776ea2ccd2e53cba938e03d0c9f11e8e135ffa/form.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1b776ea2ccd2e53cba938e03d0c9f11e8e135ffa/form.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/common.scss" afterPath="$PROJECT_DIR$/sass/common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/form.css" afterPath="$PROJECT_DIR$/css/form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/form.scss" afterPath="$PROJECT_DIR$/sass/form.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iscroll-1.html" afterPath="$PROJECT_DIR$/iscroll-1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-Mobile.html" afterPath="$PROJECT_DIR$/jquery-Mobile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jqueryMobileUI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,19 +107,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jquery-Mobile.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jquery-Mobile.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jquery-Mobile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="8" selection-start="1041" selection-end="1527" vertical-scroll-proportion="-5.8846154">
+            <state line="149" column="70" selection-start="4273" selection-end="4273" vertical-scroll-proportion="0.38494936">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iscroll-1.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="iscroll-1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iscroll-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="18" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.7293777">
+            <state line="9" column="8" selection-start="363" selection-end="363" vertical-scroll-proportion="37.5">
               <folding />
             </state>
           </provider>
@@ -204,8 +194,8 @@
         <option value="$PROJECT_DIR$/sass/page.scss" />
         <option value="$PROJECT_DIR$/sass/common.scss" />
         <option value="$PROJECT_DIR$/sass/form.scss" />
-        <option value="$PROJECT_DIR$/jquery-Mobile.html" />
         <option value="$PROJECT_DIR$/iscroll-1.html" />
+        <option value="$PROJECT_DIR$/jquery-Mobile.html" />
       </list>
     </option>
   </component>
@@ -498,16 +488,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-Mobile.html">
+    <entry file="file://$PROJECT_DIR$/iscroll-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="8" selection-start="1041" selection-end="1527" vertical-scroll-proportion="-5.8846154">
+        <state line="9" column="8" selection-start="363" selection-end="363" vertical-scroll-proportion="37.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iscroll-1.html">
+    <entry file="file://$PROJECT_DIR$/jquery-Mobile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="18" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.7293777">
+        <state line="149" column="70" selection-start="4273" selection-end="4273" vertical-scroll-proportion="0.38494936">
           <folding />
         </state>
       </provider>
