@@ -1,7 +1,6 @@
 @import "compass/reset";
 @import "compass/css3";
 
-
 .clear{clear:both;font-size: 0;line-height: 0;}
 .clearfix {
   *zoom: 1;
@@ -123,7 +122,20 @@ $success : #468847;
 
 html,body,a{color:$font-color; font-size: $font-size; font-family: $font-family}
 .inline{width:auto !important;display: inline-block !important;}
+p{
+  margin: $common-margin;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
 
+pre {
+  white-space: pre-wrap;
+}
 
 textarea:focus,
 input[type="text"]:focus,
@@ -879,32 +891,4 @@ a.badge:focus {
 }
 
 
-
-@mixin customized-list($noHover:'false') {
-
-  display: block;
-  margin: $common-margin;
-  padding:$common-padding;
-  vertical-align: middle;
-
-  border:1px #ccc solid;
-  text-align: center;
-
-
-  @include box-sizing(border-box);
-  @include background-image(linear-gradient(white, #f1f1f1));
-  @include border-radius(4px);
-  @include box-shadow(0px 1px 3px rgba(0, 0, 0, .2));
-
-  @if $noHover != 'true' {
-
-    cursor: pointer;
-    &:hover{
-      @include background-image(linear-gradient(#f6f6f6, #e0e0e0));
-    }
-
-  }
-
-
-}
 

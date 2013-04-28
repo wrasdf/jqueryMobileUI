@@ -1,28 +1,31 @@
 @import "common";
-@import "compass/css3";
 
-h2{margin:20px 0;}
 
-// Form elements
-.button-wrapper{
-  padding:10px;
-}
+@mixin customized-list($noHover:'false') {
 
-.button,
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-button,
-button.button{
-  @include customized-list;
-}
+  display: block;
+  margin: $common-margin;
+  padding:$common-padding;
+  vertical-align: middle;
 
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-button,
-button.button{
-  padding:7px 20px;
+  border:1px #ccc solid;
+  text-align: center;
+
+
+  @include box-sizing(border-box);
+  @include background-image(linear-gradient(white, #f1f1f1));
+  @include border-radius(4px);
+  @include box-shadow(0px 1px 3px rgba(0, 0, 0, .2));
+
+  @if $noHover != 'true' {
+
+    cursor: pointer;
+    &:hover{
+      @include background-image(linear-gradient(#f6f6f6, #e0e0e0));
+    }
+
+  }
+
 }
 
 @mixin customize-group-list-label{
@@ -57,6 +60,31 @@ button.button{
   @include customize-group-list-label;
 
 }
+
+h2{margin:20px 0;}
+
+// Form elements
+.button-wrapper{
+  padding:20px;
+}
+
+.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+button.button{
+  @include customized-list;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+button.button{
+  padding:7px 20px;
+}
+
 
 .view-list{
   @include customize-group-list('> a');
@@ -190,6 +218,28 @@ button.button{
   &:hover > a,
   &:focus > a{
     @include dropdown-hover-mixin;
+  }
+}
+
+.the-icons{
+  & > li{
+    float:left;
+    width:12.5%;
+    padding:10px;
+    height:100px;
+    border:1px $border solid;
+    text-align: center;
+    @include box-sizing(border-box);
+
+    .icon{
+      display: block;
+      margin: 5px auto;
+      vertical-align: middle;
+      margin-right: 3px;
+      font-size: 24px;
+    }
+
+
   }
 }
 

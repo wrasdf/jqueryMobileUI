@@ -185,6 +185,22 @@ html, body, a {
   display: inline-block !important;
 }
 
+p {
+  margin: 4px 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
